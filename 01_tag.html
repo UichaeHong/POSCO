@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag</title>
+</head>
+<body>
+    <h1>안녕하세요</h1>
+    <h2>안녕하세요</h2>
+    <h3>안녕하세요</h3>
+    <h4>안녕하세요</h4>
+    <h5>안녕하세요</h5>
+    <h6>안녕하세요</h6>
+
+    <p>내일은 삼일절</p>
+
+    <p>&nbsp;</p>
+
+    <pre>     . .  .    띄어쓰기 가능   .</pre>
+
+    <hr />
+    <br /><br /><br />
+
+    <h3>오늘의 할 일</h3>
+    <!-- ul type= disc, square, circle, none  -->
+    <ul type="circle">
+        <li></strong>html 공부하기</li>
+        <li>저녁먹기</li>
+        <li>운동하기</li>
+    </ul>
+    <h3>오늘의 할 일 <em>카페라떼</em>만들기</h3>
+    <!-- ol type= 1, a, A, i, I -->
+    <ol type="1">
+        <li> <strong>우유</strong>를 컵에 넣습니다</li>
+        <li><b><얼음/b>을 넣습니다</li> 
+        <li><i>에스프레소 샷</i>을 넣어주면</li>
+        <li>완성</li>
+    </ol>
+
+
+    <!-- 실습 -->
+    <h1>이디야</h1>
+    <ul>
+        <li>아메리카노
+            <ol>3200원
+            <ol>
+                <ol>물+에스프레소</ol>
+            </ol>
+            </ol>
+        </li>
+        <li>
+            <h2>카페라떼</h2>
+            <ol>
+                <li>3500원</li>
+            </ol>
+        </li>
+        <li>
+            <h2>레몬에이드</h2>
+            <ol>
+                <li>4000원</li>
+            </ol>
+        </li>
+        
+    </ul>
+    <hr />
+    <h2>음료설명</h2>
+    <p><strong>아메리카노</strong>물 + 에스프레소</p>
+    <p><b>카페라떼</b> 우유 + 에스프레소</p>
+    <p><b>레몬에이드</b>레몬 + 탄산수</p>
+
+
+
+    <hr />
+    <br />
+    <h1>img & a 태그</h1>
+    <!-- 
+        img 태그의 속성
+        src(필수)
+        alt(선택 - 쓰는 게 좋음) 경로를 찾지 못했을 때를 대비해서 사진의 설명
+        height, width : 높이와 너비
+             하나만 써줬을 땐,ㄴ 원본 비율을 유지하며 적용
+     -->
+
+     <img src="https://www.google.com/search?q=%EC%A7%9C%ED%8C%8C%EA%B2%8C%ED%8B%B0&sxsrf=AJOqlzXY5laY7vmFRmMql2RL9omyOFtBFA:1677573398592&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjsu4f057f9AhUFglYBHZ_YDCwQ_AUoAXoECAEQAw&biw=1538&bih=858&dpr=1.25#imgrc=Lvjs8LpYtQTMVM" alt="짜파게티 사진" width="200" height="200"/>
+     <br />
+     <!-- 상대경로 -->
+     <img src="./img/puppy.jpg " alt="" width="">
+     <!-- 절대경로 -->
+     <img src="/html/img/puppy.jpg " alt="" width="">
+     <!----------------------------------->
+
+     <a href="https://velog.io/" target="_blank">블로그로 이동</a>
+     <a href="http://www.naver.com" title="마우스 커서를 올리면 나타나는 문장입니다">네이버로 이동</a>
+     <form>
+     <br />
+     <a href="https://velog.io/">
+        <img src="image.png" alt="사진">
+    </form>
+
+
+     <form>
+        <label for="textInput">id</label>
+       <input type="text" id="textInput" />
+        <br />
+       <label for="">비밀번호</label>
+       <input type="password" id="pwd" />
+
+        
+            email type
+            -실제 제출을 할 때 이메일 형식이 아니면 안됨
+         
+       <input type="email" placeholder="이메일 형식" > <!-- 사용자에게 하고 싶은 말-->
+       <br />
+       <textarea cols="20" row="5" placeholder="하고 싶은 말"></textarea> <!-- cols - 가로의 길이 , row- 세로의 길이-->
+
+
+       <input type="color"/>
+       <input type="range"/>
+       <input type="file"/>
+       <input type="number"/> <!-- 숫자만 써짐-->
+       <input type="date" />
+       <input type="datetime-local"/>
+       <hr />
+       <h5>다음 중 input type이 아닌 것은?</h5>
+       <input type="checkbox" name="input"/> text
+       <input type="checkbox" name="input"/> bread
+       <input type="checkbox" name="input"checked/> date
+       <input type="checkbox" name="input" disabled/> click
+       <input type="checkbox" name="input"/> img
+
+       <h5>다음 중 이미지 태그의 속성은?</h5>
+       <input type="radio" name="img" id="title"> <label for="">title</label>
+       <input type="radio" name="img" id="alt"> <label for="">alt</label>
+       <input type="radio" name="img" id="mouse"> <label for="">mouse</label>
+       <input type="radio" name="img" id="vlaue"> <label for="">vlaue</label>
+       <input type="radio" name="img" id="href"> <label for="">href</label>
+
+
+       <input type="button" vlaue="버튼">
+       <input type="submit" vlaue="제출">
+       <botton><span style="color:red;">버</span>튼</botton>
+       <hr/>
+
+       <select name="flower">
+            <optgroup label="redflowr">
+            <option>장미</option>
+            <option>동백꽃</option>
+            <option>카네이션</option>
+            </optgroup>
+            <optgroup label="whiteflower">
+            <option>벚꽃</option>
+            <option>목련</option>
+            <option>매화</option>
+            </optgroup>
+       </select>
+    </form>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+
+        <select name="flower">
+            <option>장미</option>
+            <option>동백꽃</option>
+            <option>카네이션</option>
+            <option</optiom>
+        </select>            
+
+
+
+    
+
+
+
+
+
+
+j
+
+
+    <blockquote cite="https://search.pstatic.net/common/?src=http%3A%2F%2Fimage.nmv.naver.net%2Fblog_2023_01_20_3061%2F9e2feaaa-98bb-11ed-a4aa-a0369ffda818_01.jpg&type=ofullfill340_600_png">
+        <p>이 고양이는 하이퍼 텍스트 마크업 언어는 웹 페이지를 위한 지배적인 마크업 언어이다 또한 html은 제목 단락 목록 등과 같은 본문을 위한 구조적 의미이다 링크</p>
+    </blockquote>
+
+
+
+
+
+
+
+</body>
+</html>

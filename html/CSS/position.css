@@ -1,0 +1,48 @@
+body {
+    height: 2000px;
+    /* background: linear-gradient{}; */
+}
+
+
+
+div {
+    width: 100px;
+    height: 100px;
+    font-weight:  700;
+    text-align: center;
+    line-height: 100px;
+}
+
+.position-static {
+    background-color: aqua;
+    position: static;
+    top: 100px;
+    left: 50px;
+}
+
+.position-relative {
+    background-color: pink;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.position-absolute {
+    background-color: gold;
+    position: absolute;
+    opacity: 0.5;
+    top: 50px;
+    left: 0;
+}
+
+.position-fixed {
+    background-color: bisque;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* .position-relative {
+    background-color: ;
+} */

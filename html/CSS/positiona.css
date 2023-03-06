@@ -1,0 +1,69 @@
+        
+        body{
+            background-image: url('./img/grass.png');
+            background-repeat: no-repeat;  
+            background-position: left;
+            width: 10px;
+            height: 600px;
+        }
+
+
+        .circle {
+            
+            width: 100px; 
+            height: 100px; 
+            border-radius: 50%; 
+            position: absolute;
+            
+        } 
+        
+        
+        .circle1  {
+            background-color: white;
+            width: 40px; 
+            height: 40px;  
+            top: 70px;
+            left: 20px;
+            z-index: 7;
+          }
+
+
+        div.circle2 {
+            background-color:black;
+            width: 20px;
+            height: 20px;
+            top: 80px;
+            left: 20px;
+            z-index: 8;
+        }
+        .circle3  {
+            background-color: red; 
+            top: 50px;
+            left: 10px;
+            z-index: 2;
+        } 
+        .circle4 {
+            background-color: orange; 
+            top: 80px;
+            left: 50px;
+            z-index: 3;
+        } 
+        .circle5 {
+            background-color: yellow; 
+            top: 120px;
+            left: 110px;
+            z-index: 4;
+        } 
+        .circle6 {
+            background-color:yellowgreen; 
+            top: 170px;
+            left: 120px;
+            z-index: 5;
+        } 
+        .circle7 {
+            background-color: blue;
+            top: 220px;
+            left: 140px;
+            
+            z-index: 6;
+        }

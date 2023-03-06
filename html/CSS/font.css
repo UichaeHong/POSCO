@@ -1,0 +1,46 @@
+/* @import url('https://fonts.googleapis.com/css2? family= 나눔+Brush+Script & family= Poppins & display=swap'); */
+/* font-family: '나눔 브러쉬 스크립트', 필기체;
+font-family: '포핀스', 산세리프; */
+@font-face {
+    font-family: 'KimjungchulMyungjo-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    font-family: 'KimjungchulMyungjo-Bold';
+
+}
+
+.sentences {
+    font-weight: 700;
+
+    /* text-align: center;
+    text-align: right; */
+
+    text-decoration: line-through;
+    text-decoration: underline;
+
+    line-height: 2; 
+    font-family: 'Nanum Brush Script', cursive;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+a {
+    text-decoration: none;  /* 링크 삭제*/
+    color: black;  
+}
+
+.font-import {
+    font-family: 'East sea Dokdo', 'Hi Melody';
+}
+
+.google {
+    
+        font-family: 'KimjungchulMyungjo-Bold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302_01@1.0/KimjungchulMyungjo-Bold.woff2') format('woff2');
+        font-weight: 700;
+        font-style: normal;
+    }
